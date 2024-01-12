@@ -64,26 +64,47 @@
 
 
 /* menu halaman */
-.highlighted-briket {
+.highlighted {
     height: 250px;
 }
 
+.briket {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/briket.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
 .briket-tentang {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pic3.jpeg');
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/briket-tentang.png');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
 }
 
 .briket-pembuatan {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pic3.jpeg');
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/briket-pembuatan.png');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
 }
 
 .briket-kelebihan {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pic3.jpeg');
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/briket-kelebihan.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.toga {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/toga.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.eco {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/eco.png');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
