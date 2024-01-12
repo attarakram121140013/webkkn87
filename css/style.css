@@ -21,25 +21,46 @@
 
 
 /* banner */
-.banner {
-    height: 80vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pic3.jpeg');
-}
-
-.banner-produk {
-    height: 40vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pic3.jpeg');
-    background-position: center;
-    object-fit: cover;
-}
-
-.banner2{
+.banner-home{
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pic3.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.banner-briket{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pic3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-toga{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pic3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-eco{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pic3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-tentangKami{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pic3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 
 /* menu halaman */
