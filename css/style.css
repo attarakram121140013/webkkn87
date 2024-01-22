@@ -12,7 +12,7 @@
 }
 
 .warna3 {
-    background-color: #e6a307;
+    background-color: #F5EAD5;
 }
 
 .warna4 {
@@ -39,7 +39,7 @@
 
 .banner-toga{
     height: 80vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/pic3.jpeg');
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/banner-toga.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -151,3 +151,15 @@
     border-radius: 100%;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
+
+.text-justify {
+    text-align: justify;
+}
+
+.gambar-toga{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 500px;
+    display: flex;
+}
+
