@@ -188,28 +188,14 @@ button:hover{
     background-color: white;
 }
 
-.display{
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-}
 
-.display p{
-    font-family: "Montserrat", sans-serif;
-    color: #967f4e;
-    font-size: 20px;
-    text-align: left;
-}
 
-.display h3{
-    padding-left: 25px;
-    padding-right: 80px;
-    text-align: left;
-    font-family: "Montserrat", sans-serif;
-    color: #967f4e;
-    font-size: 32px;
-    font-weight: 700;
-}
+
+
+
+
+
+
 
 .card-container{
     padding: 0px;
