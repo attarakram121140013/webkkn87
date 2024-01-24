@@ -188,14 +188,52 @@ button:hover{
     background-color: white;
 }
 
+.row-satu{
+    width: 101%;
+    max-width: 2000px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
 
+.row-satu .left-satu{
+    overflow: hidden;
+}
 
+.row-satu .left-satu img{
 
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
 
+.row-satu .right-satu{
+    display: flex;
+    align-items: center;
+}
 
+.row-satu .right-satu .content-satu{
+    padding-left: 0px;
+}
 
+.row-satu .right-satu .content-satu p{
+    font-size: 16px;
+    line-height: 26px;
+}
 
+@media(max-width:991px){
+    .row-satu .right-satu .content{
+        padding-left: 0px;
+    }
+}
 
+@media(max-width:768px){
+    .row-satu{
+        width: 102%;
+        grid-template-columns: 1fr;
+    }
+}
 
 .card-container{
     padding: 0px;
@@ -232,13 +270,14 @@ button:hover{
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 #card-content p{
     font-family: "Montserrat", sans-serif;
-    text-align: left;
+    text-align: justify;
     font-size: 14px;
-    color: #666;
+    color: #515050;
     margin-bottom: 20px;
 }
 
